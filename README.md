@@ -14,16 +14,25 @@ ADMFL enables:
 
 ---
 
-# 🧠 Key Features
+## 🧠 Key Features
 
-| Module | Description |
-|---|---|
-| 🔐 **Trust-Aware Federated Learning (TAFL)** | Performs secure and trust-weighted FL aggregation while filtering malicious model updates |
-| 🛰️ **Intrusion Detection & Trust (IDT)** | Detects anomalous UAV behavior and dynamically computes trust scores |
-| 📡 **UAV Swarm Communication (USC)** | Simulates UAV communication, mobility, telemetry exchange, and local distributed training |
-| 🌐 **SDN-Orchestrated Attack Mitigation (SOAM)** | Dynamically reroutes traffic, isolates malicious UAVs, and applies mitigation policies |
-| ⚡ **Programmable P4 Data Plane** | Enables programmable packet inspection, filtering, and forwarding |
-| 🧪 **Extensible Attack Simulation** | Supports DDoS, spoofing, poisoning, and swarm attacks |
+* **Trust-Aware Federated Learning (TAFL)**  
+  Performs secure and trust-weighted FL aggregation while filtering malicious model updates.
+
+* **Intrusion Detection & Trust (IDT)**  
+  Detects anomalous UAV behavior and dynamically computes trust scores.
+
+* **UAV Swarm Communication (USC)**  
+  Simulates UAV communication, mobility, telemetry exchange, and distributed training.
+
+* **SDN-Orchestrated Attack Mitigation (SOAM)**  
+  Dynamically reroutes traffic, isolates malicious UAVs, and applies adaptive mitigation policies.
+
+* **Programmable P4 Data Plane**  
+  Enables programmable packet inspection, filtering, and forwarding using P4-enabled switches.
+
+* **Extensible Attack Simulation**  
+  Supports multiple cyberattack scenarios including DDoS, spoofing, poisoning, and swarm attacks.
 
 ---
 
@@ -374,7 +383,6 @@ ADMFL is evaluated using multiple benchmark cybersecurity and IoT datasets to va
 | CICDDoS2019 | Distributed Denial-of-Service traffic dataset | DDoS attack evaluation |
 | TON_IoT | Telemetry and IoT network dataset with heterogeneous attacks | Telemetry-driven anomaly detection |
 | Edge-IIoTset | Industrial IoT security dataset with realistic attack scenarios | SD-IoT intrusion detection |
-| Custom UAV Telemetry Dataset | Simulated UAV communication and mobility traces | Trust analysis and UAV anomaly detection |
 
 ---
 
