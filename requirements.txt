@@ -1,0 +1,25 @@
+# requirements.txt
+
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+scikit-learn==1.4.2
+pyyaml==6.0.1
+
+networkx==3.3
+scapy==2.5.0
+mininet==2.3.0.dev6
+
+torch==2.2.2
+torchvision==0.17.2
+
+flwr==1.8.0
+
+ryu==4.34
+
+grpcio==1.62.2
+protobuf==4.25.3
+
+pytest==8.2.0
+
+docker==7.0.0

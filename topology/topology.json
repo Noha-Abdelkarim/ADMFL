@@ -1,0 +1,76 @@
+# topology/topology.json
+
+{
+    "network_name": "ADMFL_UAV_Network",
+
+    "controller": {
+        "type": "Ryu",
+        "ip": "127.0.0.1",
+        "port": 6633
+    },
+
+    "wireless": {
+        "protocol": "IEEE_80211p",
+        "bandwidth_mbps": 100,
+        "latency_ms": 10
+    },
+
+    "uavs": [
+        {
+            "id": "UAV-1",
+            "ip": "10.0.0.1",
+            "role": "client",
+            "position": [10, 20, 30]
+        },
+        {
+            "id": "UAV-2",
+            "ip": "10.0.0.2",
+            "role": "client",
+            "position": [20, 40, 30]
+        },
+        {
+            "id": "UAV-3",
+            "ip": "10.0.0.3",
+            "role": "client",
+            "position": [30, 60, 30]
+        }
+    ],
+
+    "edge_servers": [
+        {
+            "id": "EDGE-1",
+            "ip": "10.0.1.1",
+            "role": "federated_server"
+        }
+    ],
+
+    "switches": [
+        {
+            "id": "S1",
+            "type": "P4_BMv2"
+        }
+    ],
+
+    "links": [
+        {
+            "source": "UAV-1",
+            "target": "S1",
+            "type": "wireless"
+        },
+        {
+            "source": "UAV-2",
+            "target": "S1",
+            "type": "wireless"
+        },
+        {
+            "source": "UAV-3",
+            "target": "S1",
+            "type": "wireless"
+        },
+        {
+            "source": "S1",
+            "target": "EDGE-1",
+            "type": "wired"
+        }
+    ]
+}

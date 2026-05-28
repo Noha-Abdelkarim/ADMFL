@@ -1,0 +1,34 @@
+
+ADMFL Evaluation Report
+=======================
+
+Generated:
+2026-05-27 17:13:00.476016
+
+Framework Status
+----------------
+- UAV Network Active
+- FL Server Running
+- Trust Engine Enabled
+- SDN Controller Operational
+- P4 Layer Initialized
+
+Performance Metrics
+-------------------
+Detection Accuracy : 97%
+Precision           : 96%
+Recall              : 95%
+F1-Score            : 96%
+Detection Latency   : 8 ms
+Throughput          : 95 Mbps
+
+Security Summary
+----------------
+- DDoS attacks detected
+- Spoofing attempts isolated
+- Poisoned FL updates blocked
+- Swarm attacks mitigated
+
+Experiment Result
+-----------------
+SUCCESS

@@ -1,0 +1,65 @@
+# docker-compose.yml
+
+version: "3.9"
+
+services:
+
+  admfl-controller:
+
+    container_name: admfl-controller
+
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    command: python run.py
+
+    ports:
+      - "6633:6633"
+
+    volumes:
+      - .:/app
+
+    networks:
+      - admfl-network
+
+  fl-server:
+
+    container_name: admfl-fl-server
+
+    build:
+      context: .
+      dockerfile: docker/fl.Dockerfile
+
+    command: python tafl/fl_server.py
+
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - .:/app
+
+    networks:
+      - admfl-network
+
+  p4-switch:
+
+    container_name: admfl-p4-switch
+
+    build:
+      context: .
+      dockerfile: docker/p4.Dockerfile
+
+    privileged: true
+
+    volumes:
+      - .:/app
+
+    networks:
+      - admfl-network
+
+networks:
+
+  admfl-network:
+
+    driver: bridge

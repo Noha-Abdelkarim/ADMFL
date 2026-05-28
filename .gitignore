@@ -1,0 +1,55 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+admfl_env/
+
+# Logs
+logs/
+*.log
+
+# Results
+results/
+evaluation/output/
+
+# Dataset Cache
+datasets/processed/
+datasets/raw/*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.tar
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# P4 Build Outputs
+p4/build/
+*.json
+*.p4info.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+coverage.xml
+
+# Temporary Files
+tmp/
+temp/

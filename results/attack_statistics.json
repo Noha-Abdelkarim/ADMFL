@@ -1,0 +1,7 @@
+{
+    "ddos_attacks_detected": 12,
+    "spoofing_attacks_detected": 5,
+    "poisoning_attacks_detected": 3,
+    "swarm_attacks_detected": 2,
+    "mitigated_attacks": 22
+}

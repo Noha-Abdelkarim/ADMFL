@@ -1,0 +1,129 @@
+# config.yaml
+
+project:
+
+  name: ADMFL
+
+  version: 1.0
+
+  log_level: INFO
+
+
+network:
+
+  num_uavs: 5
+
+  controller_ip: "127.0.0.1"
+
+  wireless_protocol: "IEEE_80211p"
+
+  communication_type:
+
+    - UAV_TO_UAV
+
+    - UAV_TO_EDGE
+
+    - EDGE_TO_CONTROLLER
+
+  bandwidth_mbps: 100
+
+  latency_ms: 10
+
+  telemetry_enabled: true
+
+  telemetry_interval: 1
+
+
+federated_learning:
+
+  rounds: 10
+
+  local_epochs: 5
+
+  batch_size: 32
+
+  learning_rate: 0.001
+
+  aggregation_method: "TrustWeightedFedAvg"
+
+
+trust_management:
+
+  trust_threshold: 0.5
+
+  trust_memory_factor: 0.7
+
+
+detection:
+
+  anomaly_detection_model: "Entropy-Based Detector"
+
+  packet_entropy_threshold: 0.65
+
+
+mitigation:
+
+  packet_filtering: true
+
+  malicious_uav_isolation: true
+
+  traffic_rerouting: true
+
+  routing_update_interval: 5
+
+
+sdn_controller:
+
+  controller_ip: "127.0.0.1"
+
+  controller_port: 6633
+
+  protocol: "OpenFlow13"
+
+  monitoring_interval: 5
+
+
+attacks:
+
+  ddos:
+
+    attack_rate: 1000
+
+  spoofing:
+
+    fake_identity_count: 20
+
+  poisoning:
+
+    malicious_clients: 2
+
+  swarm:
+
+    swarm_size: 10
+
+
+evaluation:
+
+  metrics:
+
+    - accuracy
+
+    - precision
+
+    - recall
+
+    - f1_score
+
+    - throughput
+
+    - latency
+
+
+logging:
+
+  log_directory: "logs"
+
+
+results:
+
+  output_directory: "results"

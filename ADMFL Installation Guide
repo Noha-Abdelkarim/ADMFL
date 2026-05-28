@@ -1,0 +1,117 @@
+# docs/installation.md
+
+# ADMFL Installation Guide
+
+## System Requirements
+
+Recommended environment:
+
+- Ubuntu 22.04
+- Python 3.10+
+- Docker
+- Mininet
+- BMv2
+- Ryu Controller
+
+---
+
+# Clone Repository
+
+```bash
+git clone https://github.com/your-username/ADMFL.git
+
+cd ADMFL
+```
+
+---
+
+# Create Virtual Environment
+
+```bash
+python3 -m venv admfl_env
+
+source admfl_env/bin/activate
+```
+
+---
+
+# Install Dependencies
+
+```bash
+pip install --upgrade pip
+
+pip install -r requirements.txt
+```
+
+---
+
+# Install Docker
+
+```bash
+sudo apt install docker.io docker-compose
+```
+
+---
+
+# Verify Installation
+
+```bash
+python run.py
+```
+
+---
+
+# Docker Deployment
+
+## Build Containers
+
+```bash
+docker-compose build
+```
+
+## Run Framework
+
+```bash
+docker-compose up
+```
+
+---
+
+# Running Experiments
+
+```bash
+bash scripts/run_experiments.sh
+```
+
+---
+
+# Running Tests
+
+```bash
+pytest tests/
+```
+
+---
+
+# Common Issues
+
+## Missing Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Permission Denied
+
+```bash
+chmod +x scripts/*.sh
+chmod +x p4/*.sh
+```
+
+---
+
+# ADMFL Ready
+
+The framework is now ready for experimentation.
