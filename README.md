@@ -16,16 +16,16 @@ ADMFL enables:
 
 ## 🧠 Key Features
 
-* **Trust-Aware Federated Learning (TAFL)**  
+* **Trust-Aware Federated Learning  (TAFL)**  
   Performs secure and trust-weighted FL aggregation while filtering malicious model updates.
 
-* **Intrusion Detection & Trust (IDT)**  
+* **Intelligent Detection and Trust  (IDT)**  
   Detects anomalous UAV behavior and dynamically computes trust scores.
 
-* **UAV Swarm Communication (USC)**  
+* **UAV Sensing and Communication  (USC)**  
   Simulates UAV communication, mobility, telemetry exchange, and distributed training.
 
-* **SDN-Orchestrated Attack Mitigation (SOAM)**  
+* **SD-IoT Orchestration and Adaptive Mitigation  (SOAM)**  
   Dynamically reroutes traffic, isolates malicious UAVs, and applies adaptive mitigation policies.
 
 * **Programmable P4 Data Plane**  
