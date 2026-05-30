@@ -112,7 +112,7 @@ ADMFL/
 
 # Installation
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/ADMFL.git
@@ -122,7 +122,7 @@ cd ADMFL
 
 ---
 
-## 2️⃣ Create Virtual Environment
+##  Create Virtual Environment
 
 ```bash
 python3 -m venv admfl_env
@@ -132,7 +132,7 @@ source admfl_env/bin/activate
 
 ---
 
-## 3️⃣ Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -140,7 +140,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4️⃣ Install SDN Dependencies (Optional)
+##  Install SDN Dependencies (Optional)
 
 ```bash
 sudo apt update
@@ -154,7 +154,7 @@ sudo apt install net-tools -y
 
 ---
 
-# ▶️ Running ADMFL
+#  Running ADMFL
 
 Start the framework:
 
@@ -490,7 +490,7 @@ docker-compose up
 
 #  Execution Flow
 
-## 1️⃣ Framework Initialization
+## Framework Initialization
 
 Entry point:
 
@@ -507,7 +507,7 @@ Responsible for:
 
 ---
 
-## 2️⃣ UAV Communication Layer (USC)
+##  UAV Communication Layer (USC)
 
 Modules:
 
@@ -525,7 +525,7 @@ Responsible for:
 
 ---
 
-## 3️⃣ Intrusion Detection Layer (IDT)
+## Intrusion Detection Layer (IDT)
 
 Modules:
 
@@ -543,7 +543,7 @@ Responsible for:
 
 ---
 
-## 4️⃣ Federated Learning Layer (TAFL)
+##  Federated Learning Layer (TAFL)
 
 Modules:
 
@@ -561,7 +561,7 @@ Responsible for:
 
 ---
 
-## 5️⃣ SDN Orchestration Layer (SOAM)
+##  SDN Orchestration Layer (SOAM)
 
 Modules:
 
