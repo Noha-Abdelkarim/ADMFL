@@ -1,4 +1,4 @@
-# 🛡️ ADMFL: P4-Enabled Adaptive Detection and Mitigation Federated Learning Framework for Secure UAV-Assisted Low-Altitude Intelligent Transportation Systems
+#  ADMFL: P4-Enabled Adaptive Detection and Mitigation Federated Learning Framework for Secure UAV-Assisted Low-Altitude Intelligent Transportation Systems
 
 > ADMFL is a modular cybersecurity framework designed for **UAV-enabled Software-Defined IoT (SD-IoT)** environments.  
 The framework integrates **Federated Learning (FL), Trust Management, SDN orchestration, programmable P4 data planes, anomaly detection, and adaptive mitigation** into a unified architecture for intelligent cyber-defense.
@@ -14,7 +14,7 @@ ADMFL enables:
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 * **Trust-Aware Federated Learning  (TAFL)**  
   Performs secure and trust-weighted FL aggregation while filtering malicious model updates.
@@ -36,16 +36,16 @@ ADMFL enables:
 
 ---
 
-# 🏗️ Framework Architecture
+# Framework Architecture
 
 ADMFL consists of four collaborative layers:
 
 | Layer | Description |
 |---|---|
-| 🛰️ USC | UAV communication, telemetry, mobility, and local training |
-| 🔐 IDT | Intrusion detection, anomaly analysis, and trust computation |
-| 🧠 TAFL | Federated learning coordination and trust-aware aggregation |
-| 🌐 SOAM | SDN orchestration, routing, and adaptive mitigation |
+| USC | UAV communication, telemetry, mobility, and local training |
+| IDT | Intrusion detection, anomaly analysis, and trust computation |
+| TAFL | Federated learning coordination and trust-aware aggregation |
+| SOAM | SDN orchestration, routing, and adaptive mitigation |
 
 These layers operate cooperatively to ensure secure distributed intelligence across UAV-assisted SD-IoT systems.
 
@@ -110,7 +110,7 @@ ADMFL/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ## 1️⃣ Clone Repository
 
@@ -183,7 +183,7 @@ ADMFL Framework is running...
 
 ---
 
-# 🧪 Experimental Workflow
+# Experimental Workflow
 
 ADMFL follows the experimental pipeline below:
 
@@ -197,7 +197,7 @@ ADMFL follows the experimental pipeline below:
 
 ---
 
-# 🧪 Testing and Evaluation Guide
+# Testing and Evaluation Guide
 
 This section provides the recommended testing workflow for ADMFL.
 
@@ -311,7 +311,7 @@ tail -f logs/admfl.log
 
 ---
 
-# 📊 Results and Evaluation Outputs
+#  Results and Evaluation Outputs
 
 Evaluation metrics and experiment outputs are stored in:
 
@@ -352,7 +352,7 @@ cat results/attack_statistics.json
 
 ---
 
-# 📊 Performance Metrics
+# Performance Metrics
 
 ADMFL evaluates cybersecurity performance, federated learning robustness, trust convergence, and SD-IoT communication efficiency using the following metrics.
 
@@ -373,7 +373,7 @@ ADMFL evaluates cybersecurity performance, federated learning robustness, trust 
 
 ---
 
-# 🗂️ Evaluation Datasets
+#  Evaluation Datasets
 
 ADMFL is evaluated using multiple benchmark cybersecurity and IoT datasets to validate binary and multi-class UAV attack detection performance.
 
@@ -386,7 +386,7 @@ ADMFL is evaluated using multiple benchmark cybersecurity and IoT datasets to va
 
 ---
 
-# 🧪 Evaluated Attack Scenarios
+#  Evaluated Attack Scenarios
 
 ADMFL supports evaluation under multiple UAV cyberattack scenarios.
 
@@ -401,7 +401,7 @@ ADMFL supports evaluation under multiple UAV cyberattack scenarios.
 
 ---
 
-# 🔐 Supported Attack Types
+#  Supported Attack Types
 
 | Attack Type | Description |
 |---|---|
@@ -412,7 +412,7 @@ ADMFL supports evaluation under multiple UAV cyberattack scenarios.
 
 ---
 
-# 🌐 SDN Emulation Environment
+# SDN Emulation Environment
 
 ADMFL supports SDN emulation using:
 
@@ -458,7 +458,7 @@ Expected:
 
 ---
 
-# ⚡ P4 Deployment
+# P4 Deployment
 
 Compile P4 switch program:
 
@@ -472,7 +472,7 @@ chmod +x compile.sh
 
 ---
 
-# 🐳 Docker Deployment
+#  Docker Deployment
 
 Build containers:
 
@@ -488,7 +488,7 @@ docker-compose up
 
 ---
 
-# 🔍 Execution Flow
+#  Execution Flow
 
 ## 1️⃣ Framework Initialization
 
@@ -579,7 +579,7 @@ Responsible for:
 
 ---
 
-# 🔗 Technologies Used
+# Technologies Used
 
 - Python
 - PyTorch
@@ -591,7 +591,7 @@ Responsible for:
 - BMv2
 
 ---
-# 📈 Experimental Results Summary
+# Experimental Results Summary
 
 Experimental evaluation demonstrates:
 
@@ -603,7 +603,7 @@ Experimental evaluation demonstrates:
 - improved SD-IoT resilience under coordinated UAV attacks
 ---
 
-# 📜 License
+# License
 
 This project is released under the MIT License.
 
