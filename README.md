@@ -51,7 +51,7 @@ These layers operate cooperatively to ensure secure distributed intelligence acr
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 ADMFL/
@@ -203,7 +203,7 @@ This section provides the recommended testing workflow for ADMFL.
 
 ---
 
-# ✅ Step 1 — Run Unit Tests
+# Step 1 — Run Unit Tests
 
 Run all framework tests:
 
@@ -226,7 +226,7 @@ Validated modules include:
 
 ---
 
-# ✅ Step 2 — Launch Attack Simulations
+# Step 2 — Launch Attack Simulations
 
 ADMFL supports multiple UAV cyberattack scenarios.
 
@@ -264,7 +264,7 @@ python attacks/swarm_attack.py
 
 ---
 
-# ✅ Step 3 — Run Federated Learning
+# Step 3 — Run Federated Learning
 
 ```bash
 bash scripts/run_fl.sh
@@ -278,7 +278,7 @@ This starts:
 
 ---
 
-# ✅ Step 4 — Generate Evaluation Results
+#  Step 4 — Generate Evaluation Results
 
 Run:
 
@@ -287,13 +287,13 @@ python evaluation/results_analyzer.py
 ```
 ---
 
-# 📝 Logs and Runtime Monitoring
+#  Logs and Runtime Monitoring
 
 ADMFL automatically generates runtime logs during execution.
 
 ---
 
-## 📁 Log Directory
+##  Log Directory
 
 ## View Logs
 
